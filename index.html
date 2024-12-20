@@ -3,144 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EDCO - Mental Health</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Arial', sans-serif;
-            background-color: #fff8f0;
-            color: #333;
-        }
-
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 50px;
-            background-color: #fff;
-        }
-
-        header .logo {
-            font-size: 24px;
-            font-weight: bold;
-            color: #333;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 20px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-        }
-
-        .hero {
-            text-align: center;
-            padding: 50px;
-        }
-
-        .hero h1 {
-            font-size: 36px;
-            margin-bottom: 10px;
-        }
-
-        .hero p {
-            font-size: 18px;
-            margin-bottom: 20px;
-        }
-
-        .hero .btn {
-            padding: 10px 20px;
-            background-color: #333;
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-        }
-
-        .content {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            flex-wrap: wrap;
-            padding: 30px;
-        }
-
-        .card {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            padding: 20px;
-            width: 300px;
-            margin: 10px;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        .card h3 {
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
-
-        .card p {
-            font-size: 16px;
-            margin-bottom: 10px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #fff;
-            border-top: 1px solid #ddd;
-            margin-top: 20px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>Comparison Table</title>
 </head>
 <body>
-    <header>
-        <div class="logo">EDCO</div>
-        <nav>
-            <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Work With Us</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </nav>
-        <a href="#" class="btn">Get Started</a>
-    </header>
-
-    <div class="hero">
-        <h1>Embracing Mental Health for a Balanced Life 😊</h1>
-        <p>Prioritizing mental health is the key to unlocking personal growth and well-being.</p>
-        <a href="#" class="btn">Get Started</a>
-    </div>
-
-    <div class="content">
-        <div class="card">
-            <img src="https://via.placeholder.com/100" alt="Meditation Icon">
-            <h3>Explore your meditations</h3>
-            <a href="#">Learn More</a>
+    <div class="comparison-box">
+        <!-- Headings -->
+        <div class="comparison-row headings">
+            <div class="comparison-cell">Key Features</div>
+            <div class="comparison-cell">Uyellitout</div>
+            <div class="comparison-cell">Traditional In-office Therapy</div>
         </div>
 
-        <div class="card">
-            <h3>Stress and Relaxation</h3>
-            <p>20 Min Exercise</p>
+        <!-- Key Feature Rows -->
+        <div class="comparison-row">
+            <div class="comparison-cell">Affordable Pricing</div>
+            <div class="comparison-cell"><span class="checkmark">✔</span></div>
+            <div class="comparison-cell"><span class="crossmark">✘</span></div>
         </div>
-
-        <div class="card">
-            <h3>Sitting and Yoga Meditation</h3>
-            <p>20 Min Exercise</p>
+        <div class="comparison-row">
+            <div class="comparison-cell">Flexible Timings</div>
+            <div class="comparison-cell"><span class="checkmark">✔</span></div>
+            <div class="comparison-cell"><span class="crossmark">✘</span></div>
+        </div>
+        <div class="comparison-row">
+            <div class="comparison-cell">Access Anywhere</div>
+            <div class="comparison-cell"><span class="checkmark">✔</span></div>
+            <div class="comparison-cell"><span class="crossmark">✘</span></div>
         </div>
     </div>
-
-    <footer>
-        <p>&copy; 2024 EDCO. All rights reserved.</p>
-    </footer>
 </body>
 </html>
